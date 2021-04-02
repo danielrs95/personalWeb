@@ -45,6 +45,9 @@ code {
 
 .about-photo {
   grid-area: photo;
+  /* Volvemos esta area tambien un grid para centrarlo facilmente */
+  display: grid;
+  place-items: center;
 }
 
 .about-skills {
