@@ -14,13 +14,20 @@ code {
 
 #home {
   border-top: 66px solid transparent;
+  display: grid;
+  place-items: center;
   /* margin: -66px 0 0; */
   /* -webkit-background-clip: padding-box;
   -moz-background-clip: padding; */
   background-clip: padding-box;
+
+  /* height: calc(100vh - 66px); */
+  height: 100vh;
 }
 
-.home-title {
+#about {
+  border-top: 66px solid transparent;
+  height: 100vh;
   display: grid;
   place-items: center;
 }
