@@ -28,6 +28,29 @@ code {
 #about {
   border-top: 66px solid transparent;
   height: 100vh;
+  /* Grid */
   display: grid;
   place-items: center;
+  grid-template-areas:
+    "title title"
+    "photo skills"
+    "experience experience";
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: 15% 75% 10%;
+}
+
+.about-title {
+  grid-area: title;
+}
+
+.about-photo {
+  grid-area: photo;
+}
+
+.about-skills {
+  grid-area: skills;
+}
+
+.about-experience {
+  grid-area: experience;
 }
