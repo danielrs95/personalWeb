@@ -51,6 +51,7 @@ code {
 }
 
 .about-skills {
+  width: 100%;
   grid-area: skills;
 }
 
