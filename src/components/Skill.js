@@ -2,8 +2,8 @@ import React from "react";
 
 const Skill = ({ skill, width }) => {
   return (
-    <div style={{ display: "flex", justifyContent: "center" }}>
-      <p>skill</p>
+    <div className='skill-container'>
+      <p>{skill}</p>
 
       <div className='progress' style={{ width: "80%" }}>
         <div

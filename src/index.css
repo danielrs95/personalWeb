@@ -55,6 +55,15 @@ code {
   grid-area: skills;
 }
 
+.skill-container {
+  display: flex;
+  justify-content: center;
+}
+
+.skill-container p {
+  margin-right: 1rem;
+}
+
 .about-experience {
   grid-area: experience;
 }
