@@ -21,7 +21,13 @@ const AboutScreen = () => {
         </Card>
       </div>
       <div className='about-skills'>
-        <Skill skill='HTML' width='50' />
+        <Skill skill='HTML' width='70' />
+        <Skill skill='CSS' width='70' />
+        <Skill skill='JavaScript' width='70' />
+        <Skill skill='React & Redux' width='70' />
+        <Skill skill='Node & Express' width='70' />
+        <Skill skill='Mongo & Mongoose' width='70' />
+        <Skill skill='Ruby & Ruby on Rails' width='70' />
 
         {/* <div style={{ display: "inline-block" }}>
           <p>Hola</p>

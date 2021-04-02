@@ -5,9 +5,9 @@ const Skill = ({ skill, width }) => {
     <div className='skill-container'>
       <p>{skill}</p>
 
-      <div className='progress' style={{ width: "80%" }}>
+      <div className='progress' style={{ width: "50%" }}>
         <div
-          className='progress-bar'
+          className='progress-bar progress-bar-striped progress-bar-animated'
           role='progressbar'
           style={{ width: `${width}%` }}
           aria-valuenow='25'
