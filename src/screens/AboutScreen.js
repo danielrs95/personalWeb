@@ -1,5 +1,6 @@
 import React from "react";
 import { Card, ProgressBar } from "react-bootstrap";
+import cvImg from "../img/CV.jpg";
 import Skill from "../components/Skill";
 
 const AboutScreen = () => {
@@ -9,8 +10,13 @@ const AboutScreen = () => {
         <h1>About me</h1>
       </div>
       <div className='about-photo'>
-        <Card style={{ width: "80%" }}>
-          <Card.Img variant='top' src='holder.js/100px180' />
+        <img src={cvImg} className='photo-img' />
+        <div className='photo-text'>
+          I'm a mechanical engineer and fullstack developer, passionate about
+          programing and constant learning
+        </div>
+        {/* <Card style={{ width: "80%" }}>
+          <Card.Img variant='top' src={cvImg} />
           <Card.Body>
             <Card.Title>Who am I?</Card.Title>
             <Card.Text>
@@ -18,7 +24,7 @@ const AboutScreen = () => {
               about programing and constant learning
             </Card.Text>
           </Card.Body>
-        </Card>
+        </Card> */}
       </div>
       <div className='about-skills'>
         <Skill skill='HTML' width='70' />

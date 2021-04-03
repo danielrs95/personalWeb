@@ -1,8 +1,6 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: "Asap", sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -16,12 +14,7 @@ code {
   border-top: 66px solid transparent;
   display: grid;
   place-items: center;
-  /* margin: -66px 0 0; */
-  /* -webkit-background-clip: padding-box;
-  -moz-background-clip: padding; */
   background-clip: padding-box;
-
-  /* height: calc(100vh - 66px); */
   height: 100vh;
 }
 
@@ -44,10 +37,63 @@ code {
 }
 
 .about-photo {
+  height: 100%;
   grid-area: photo;
   /* Volvemos esta area tambien un grid para centrarlo facilmente */
-  display: grid;
-  place-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.photo-img {
+  max-width: 90%;
+  border: 1px solid lightgrey;
+}
+
+.photo-text {
+  max-width: 90%;
+  border: 1px solid lightgrey;
+}
+
+@media screen and (min-width: 750px) {
+  .photo-img {
+    max-width: 80%;
+  }
+
+  .photo-text {
+    max-width: 80%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .photo-img {
+    max-width: 70%;
+  }
+
+  .photo-text {
+    max-width: 70%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .photo-img {
+    max-width: 60%;
+  }
+
+  .photo-text {
+    max-width: 60%;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .photo-img {
+    max-width: 45%;
+  }
+
+  .photo-text {
+    max-width: 45%;
+  }
 }
 
 .about-skills {
