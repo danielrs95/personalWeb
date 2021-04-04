@@ -68,21 +68,21 @@ const LateralHeader = () => {
               aria-hidden='true'
               focusable='false'
               data-prefix='fad'
-              data-icon='portrait'
+              data-icon='user-tie'
               role='img'
               xmlns='http://www.w3.org/2000/svg'
-              viewBox='0 0 384 512'
-              class='svg-inline--fa fa-portrait fa-w-12 fa-2x'
+              viewBox='0 0 448 512'
+              class='svg-inline--fa fa-user-tie fa-w-14 fa-2x'
             >
               <g class='fa-group'>
                 <path
                   fill='currentColor'
-                  d='M336 0H48A48 48 0 0 0 0 48v416a48 48 0 0 0 48 48h288a48 48 0 0 0 48-48V48a48 48 0 0 0-48-48zM192 128a64 64 0 1 1-64 64 64.06 64.06 0 0 1 64-64zm112 236.8c0 10.6-10 19.2-22.4 19.2H102.4C90 384 80 375.4 80 364.8v-19.2c0-31.8 30.1-57.6 67.2-57.6h5a103 103 0 0 0 79.6 0h5c37.1 0 67.2 25.8 67.2 57.6z'
+                  d='M191.35 414.77L208 344l-32-56h96l-32 56 16.65 70.77L224 480zM224 256A128 128 0 1 0 96 128a128 128 0 0 0 128 128z'
                   class='fa-secondary'
                 ></path>
                 <path
                   fill='currentColor'
-                  d='M192 256a64 64 0 1 0-64-64 64.06 64.06 0 0 0 64 64zm44.8 32h-5a103 103 0 0 1-79.6 0h-5c-37.1 0-67.2 25.8-67.2 57.6v19.2c0 10.6 10 19.2 22.4 19.2h179.2c12.4 0 22.4-8.6 22.4-19.2v-19.2c0-31.8-30.1-57.6-67.2-57.6z'
+                  d='M319.8 288.6L224 480l-95.8-191.4C56.9 292 0 350.3 0 422.4V464a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48v-41.6c0-72.1-56.9-130.4-128.2-133.8z'
                   class='fa-primary'
                 ></path>
               </g>
