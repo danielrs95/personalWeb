@@ -44,8 +44,13 @@ body::-webkit-scrollbar-thumb {
   position: fixed;
   background-color: var(--bg-primary);
   transition: width 600ms ease;
-  width: var(--text-secondary);
+  width: var(--navbar_width);
   height: 100vh;
+  z-index: 1; /* Stay on top */
+}
+
+.lateral-navbar:hover {
+  width: 13rem;
 }
 
 .lateral-navbar-nav {
@@ -110,10 +115,6 @@ body::-webkit-scrollbar-thumb {
   transition: var(--transition-speed);
 }
 
-.lateral-navbar:hover {
-  width: 13rem;
-}
-
 .lateral-navbar:hover .link-text {
   display: block;
 }
@@ -143,16 +144,18 @@ body::-webkit-scrollbar-thumb {
 #about {
   /* border-top: 66px solid transparent; */
   height: 100vh;
+  width: auto;
   margin-left: var(--navbar_width);
+  /* padding: 0; */
   /* Grid */
-  display: grid;
+  /* display: grid;
   place-items: center;
   grid-template-areas:
     "title title"
     "photo skills"
     "experience experience";
   grid-template-columns: repeat(2, 50%);
-  grid-template-rows: 15% 75% 10%;
+  grid-template-rows: 15% 75% 10%; */
 }
 
 .about-title {
