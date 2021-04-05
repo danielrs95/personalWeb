@@ -19,6 +19,7 @@ code {
   --bg-primary: #23232e;
   --bg-secondary: #141418;
   --transition-speed: 600ms;
+  --navbar_width: 5rem;
 }
 
 /* Customize scrollbar */
@@ -43,7 +44,7 @@ body::-webkit-scrollbar-thumb {
   position: fixed;
   background-color: var(--bg-primary);
   transition: width 600ms ease;
-  width: 5rem;
+  width: var(--text-secondary);
   height: 100vh;
 }
 
@@ -130,16 +131,19 @@ body::-webkit-scrollbar-thumb {
 }
 
 #home {
-  border-top: 66px solid transparent;
+  /* border-top: 66px solid transparent; */
   display: grid;
   place-items: center;
-  background-clip: padding-box;
+  /* background-clip: padding-box; */
   height: 100vh;
+  margin-left: var(--navbar_width);
+  /* width: calc(100vw - 5rem); */
 }
 
 #about {
-  border-top: 66px solid transparent;
+  /* border-top: 66px solid transparent; */
   height: 100vh;
+  margin-left: var(--navbar_width);
   /* Grid */
   display: grid;
   place-items: center;
@@ -218,6 +222,7 @@ body::-webkit-scrollbar-thumb {
 .about-skills {
   width: 100%;
   grid-area: skills;
+  padding: 0 15px;
 }
 
 .skill-container {
