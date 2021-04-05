@@ -111,7 +111,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .lateral-navbar:hover {
-  width: 20vw;
+  width: 13rem;
 }
 
 .lateral-navbar:hover .link-text {
