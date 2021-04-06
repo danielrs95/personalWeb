@@ -8,7 +8,7 @@ const AboutScreen = () => {
     <div id='about' className='container'>
       <div className='row'>
         <div className='col-12'>
-          <h1 className='text-center text-uppercase'>About me</h1>
+          <h1>About me</h1>
         </div>
       </div>
 

@@ -138,3 +138,9 @@ body::-webkit-scrollbar-thumb {
   width: auto;
   margin-left: var(--navbar_width);
 }
+
+#about h1 {
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
