@@ -2,7 +2,7 @@ import React from "react";
 
 const Skill = ({ skill, width }) => {
   return (
-    <div className='row'>
+    <div className='row' style={{ margin: "5px 0px" }}>
       <div className='col-12'>
         <p style={{ margin: "0" }}>{skill}</p>
         <div className='progress' style={{ width: "100%" }}>
