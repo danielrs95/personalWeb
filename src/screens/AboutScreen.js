@@ -6,30 +6,43 @@ import Skill from "../components/Skill";
 const AboutScreen = () => {
   return (
     <div id='about' className='container'>
-      <div className='col-12'>
-        <h1 className='text-center text-uppercase'>About me</h1>
+      <div className='row'>
+        <div className='col-12'>
+          <h1 className='text-center text-uppercase'>About me</h1>
+        </div>
       </div>
-      <div className='col-12'>
-        <div class='card'>
-          <img src={cvImg} class='card-img-top' alt='...' />
-          <div class='card-body'>
-            <p class='card-text'>
-              I'm a mechanical engineer and fullstack developer, passionate
-              about programing and constant learning
-            </p>
+
+      <div className='row'>
+        <div className='col-12'>
+          <div class='card'>
+            <img src={cvImg} class='card-img-top' alt='...' />
+            <div class='card-body'>
+              <p class='card-text'>
+                I'm a mechanical engineer and fullstack developer, passionate
+                about programing and constant learning
+              </p>
+            </div>
           </div>
         </div>
       </div>
-      <div className='col-12'>
-        <Skill skill='HTML' width='70' />
-        <Skill skill='CSS' width='70' />
-        <Skill skill='JavaScript' width='70' />
-        <Skill skill='React & Redux' width='70' />
-        <Skill skill='Node & Express' width='70' />
-        <Skill skill='Mongo & Mongoose' width='70' />
-        <Skill skill='Ruby & Ruby on Rails' width='70' />
+
+      <div className='row'>
+        <div className='col-12'>
+          <Skill skill='HTML' width='70' />
+          <Skill skill='CSS' width='70' />
+          <Skill skill='JavaScript' width='70' />
+          <Skill skill='React & Redux' width='70' />
+          <Skill skill='Node & Express' width='70' />
+          <Skill skill='Mongo & Mongoose' width='70' />
+          <Skill skill='Ruby & Ruby on Rails' width='70' />
+        </div>
       </div>
-      <div className='col-12'>Experiencia</div>
+
+      <div className='row'>
+        <div className='col-12'>
+          <div className='col-12'>Experiencia</div>
+        </div>
+      </div>
     </div>
   );
 };
