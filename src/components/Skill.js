@@ -2,10 +2,10 @@ import React from "react";
 
 const Skill = ({ skill, width }) => {
   return (
-    <div className='skill-container'>
-      <p>{skill}</p>
+    <div className='row'>
+      <p style={{ margin: "0" }}>{skill}</p>
 
-      <div className='progress' style={{ width: "50%" }}>
+      <div className='progress' style={{ width: "100%" }}>
         <div
           className='progress-bar progress-bar-striped progress-bar-animated'
           role='progressbar'
