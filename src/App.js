@@ -7,8 +7,8 @@ import HomeScreen from "./screens/HomeScreen";
 const App = () => {
   return (
     <div>
-      <LateralHeader />
-      {/* <Header /> */}
+      {/* <LateralHeader /> */}
+      <Header />
       <HomeScreen />
       <AboutScreen />
     </div>
