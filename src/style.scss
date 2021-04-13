@@ -1,0 +1,18 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+// Include any default variable overrides here (though functions won't be available)
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Then add additional custom code here
+
+.photo-about {
+  justify-content: center;
+}
+
+@include media-breakpoint-up(sm) {
+  .photo-about {
+    justify-content: start;
+  }
+}
