@@ -5,15 +5,15 @@ import Skill from "../components/Skill";
 
 const AboutScreen = () => {
   return (
-    <div id='about' className='container'>
+    <div id='about' className='container '>
       <div className='row'>
         <div className='col-12'>
           <h1>About me</h1>
         </div>
       </div>
 
-      <div className='row'>
-        <div className='col-12'>
+      <div className='row photo-about'>
+        <div className='col-8 col-sm-6'>
           <div class='card'>
             <img src={cvImg} class='card-img-top' alt='...' />
             <div class='card-body'>
