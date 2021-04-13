@@ -7,7 +7,9 @@ const Header = () => {
   return (
     <Navbar bg='light' expand='md' variant='light'>
       <LinkContainer to='/'>
-        <Navbar.Brand href='#home'>Daniel Ramirez</Navbar.Brand>
+        <Navbar.Brand>
+          <span style={{ fontWeight: "bold" }}>Daniel Ramirez</span>
+        </Navbar.Brand>
       </LinkContainer>
       <Navbar.Toggle aria-controls='basic-navbar-nav' />
       <Navbar.Collapse id='basic-navbar-nav'>
