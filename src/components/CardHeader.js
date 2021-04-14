@@ -3,7 +3,15 @@ import imageCV from "../img/CV.jpg";
 
 const CardHeader = () => {
   return (
-    <div className='card-body'>
+    <div
+      className='card-body background-card-header'
+      style={{
+        color: "white",
+        // background: "rgb(33,147,176)",
+        // background:
+        //   "linear-gradient(45deg, rgba(33,147,176,1) 0%, rgba(33,206,243,1) 100%)",
+      }}
+    >
       <div className='row'>
         <div className='d-flex justify-content-center col-6'>
           <img
@@ -24,17 +32,16 @@ const CardHeader = () => {
             I'm a Mechanical Engineer & Fullstack Web Developer
           </h3>
           <div
-            className='btn'
+            className='btn btn-secondary'
             style={{
               width: "fit-content",
-              border: "0.1px solid rgb(0 0 0 / 10%)",
+              // border: "0.1px solid rgb(0 0 0 / 10%)",
               padding: "0.3rem 0.5rem",
               boxShadow: "3px 3px 1.5px 0 rgb(1 1 1 / 10%)",
             }}
           >
             <i class='fab fa-linkedin' style={{ fontSize: "2rem" }}></i>
           </div>
-          <span>icons</span>
         </div>
       </div>
     </div>

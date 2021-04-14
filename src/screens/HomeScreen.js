@@ -10,7 +10,7 @@ const HomeScreen = () => {
             className='card'
             style={{
               border: "0.1px solid rgb(0 0 0 / 10%)",
-              borderRadius: "0.75rem",
+              borderRadius: "1.2rem",
               boxShadow: "5px 5px 1.5px 0 rgb(1 1 1 / 10%)",
             }}
           >
