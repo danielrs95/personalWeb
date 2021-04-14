@@ -1,4 +1,5 @@
 import React from "react";
+import CardHeader from "../components/CardHeader";
 
 const HomeScreen = () => {
   return (
@@ -6,7 +7,7 @@ const HomeScreen = () => {
       <div className='row'>
         <div className='col-12'>
           <div className='card'>
-            <div className='card-body'> Seccion 1</div>
+            <CardHeader />
             <div className='card-body'>Seccion2</div>
           </div>
         </div>
