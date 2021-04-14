@@ -23,6 +23,17 @@ const CardHeader = () => {
             <br />
             I'm a Mechanical Engineer & Fullstack Web Developer
           </h3>
+          <div
+            className='btn'
+            style={{
+              width: "fit-content",
+              border: "0.1px solid rgb(0 0 0 / 10%)",
+              padding: "0.3rem 0.5rem",
+              boxShadow: "3px 3px 1.5px 0 rgb(1 1 1 / 10%)",
+            }}
+          >
+            <i class='fab fa-linkedin' style={{ fontSize: "2rem" }}></i>
+          </div>
           <span>icons</span>
         </div>
       </div>
