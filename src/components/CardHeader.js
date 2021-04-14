@@ -23,6 +23,7 @@ const CardHeader = () => {
             <br />
             I'm a Mechanical Engineer & Fullstack Web Developer
           </h3>
+          <span>icons</span>
         </div>
       </div>
     </div>
