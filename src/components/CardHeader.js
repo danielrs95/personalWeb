@@ -5,7 +5,7 @@ const CardHeader = () => {
   return (
     <div className='card-body'>
       <div className='row'>
-        <div className='d-flex col-6' style={{ justifyContent: "center" }}>
+        <div className='d-flex justify-content-center col-6'>
           <img
             src={imageCV}
             className='w-50'
@@ -15,8 +15,14 @@ const CardHeader = () => {
             }}
           ></img>
         </div>
-        <div className='col-6'>
-          <h1>Welcome!</h1>
+        <div className='d-flex flex-column justify-content-center col-6'>
+          <h1 style={{ fontWeight: "bold" }}>Welcome!</h1>
+          <h3>
+            My name is Daniel Ramirez
+            <br />
+            <br />
+            I'm a Mechanical Engineer & Fullstack Web Developer
+          </h3>
         </div>
       </div>
     </div>
