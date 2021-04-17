@@ -24,24 +24,11 @@ const CardHeader = () => {
           ></img>
         </div>
         <div className='d-flex flex-column justify-content-center col-6'>
-          <h1 style={{ fontWeight: "bold" }}>Welcome!</h1>
-          <h3>
-            My name is Daniel Ramirez
-            <br />
-            <br />
-            I'm a Mechanical Engineer & Fullstack Web Developer
-          </h3>
-          <div
-            className='btn btn-secondary'
-            style={{
-              width: "fit-content",
-              // border: "0.1px solid rgb(0 0 0 / 10%)",
-              padding: "0.3rem 0.5rem",
-              boxShadow: "3px 3px 1.5px 0 rgb(1 1 1 / 10%)",
-            }}
-          >
-            <i class='fab fa-linkedin' style={{ fontSize: "2rem" }}></i>
-          </div>
+          <h1 style={{ fontWeight: "bold" }}>Daniel Ramirez</h1>
+          <h3>Mechanical Engineer</h3>
+          <h3>Fullstack Web Developer</h3>
+          <i class='social-media-link fab fa-linkedin'></i>
+          <i class='social-media-link fab fa-github-square'></i>
         </div>
       </div>
     </div>

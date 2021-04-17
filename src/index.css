@@ -71,3 +71,13 @@ body::-webkit-scrollbar-thumb {
     background-position: 0% 50%;
   }
 }
+
+/* Button for social media */
+.social-media-link {
+  font-size: 3rem;
+  width: fit-content;
+}
+
+.social-media-link:hover {
+  color: red;
+}
