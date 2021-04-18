@@ -1,6 +1,7 @@
 import React from "react";
 import CardHeader from "../components/CardHeader";
 import "../styles/cardComponent.css";
+import CardBody from "./CardBody";
 
 const CardComponent = () => {
   return (
@@ -9,7 +10,7 @@ const CardComponent = () => {
         <div className='col-10'>
           <div className='card card-box'>
             <CardHeader />
-            <div className='card-body'>Seccion2</div>
+            <CardBody />
           </div>
         </div>
       </div>
