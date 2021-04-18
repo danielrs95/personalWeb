@@ -14,46 +14,19 @@ code {
 :root {
   font-size: 16px;
   font-family: "Open Sans";
-  --text-primary: #b6b6b6;
-  --text-secondary: #ececec;
+  --text-primary: #ececec;
+  --text-secondary: #b6b6b6;
   --bg-primary: #23232e;
   --bg-secondary: #141418;
   --transition-speed: 600ms;
   --navbar_width: 5rem;
 }
 
-/* Customize scrollbar */
-body::-webkit-scrollbar {
-  width: 0.25rem;
-}
-
-body::-webkit-scrollbar-track {
-  background: #1e1e24;
-}
-
-body::-webkit-scrollbar-thumb {
-  background: #6649b8;
-}
-
-#home {
-  display: grid;
-  place-items: center;
-}
-
-#about {
-  height: 100vh;
-  width: auto;
-  margin-left: var(--navbar_width);
-}
-
-#about h1 {
-  font-weight: bold;
-  text-transform: uppercase;
-  text-align: center;
-}
+/********** INICIO ESTILOS CARD HEDAER **********/
 
 /* Background animation for card header */
 .background-card-header {
+  color: var(--text-primary);
   background: linear-gradient(-45deg, #23d5ab, #2196f3, #23d5ab);
   background-size: 400% 400%;
   animation: gradient 10s ease infinite;
@@ -72,6 +45,39 @@ body::-webkit-scrollbar-thumb {
   }
 }
 
+/* IMAGE HEADER */
+.container-img {
+  display: flex;
+  justify-content: center;
+}
+
+.header-img {
+  /* Que sea la mitad de 6 columnas que hay disponible para la foto */
+  width: 50%;
+  border-radius: 0.75rem;
+  /* Agrega la sombra al rededor de la foto */
+  box-shadow: 5px 5px 1.5px 0 rgb(0 0 0 / 10%);
+}
+
+/* TEXT HEADER */
+.header-tittle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Container para los links */
+.social-media-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+}
+
+.social-media-container a {
+  color: inherit;
+}
+
 /* Button for social media */
 .social-media-link {
   font-size: 3rem;
@@ -82,3 +88,5 @@ body::-webkit-scrollbar-thumb {
 .social-media-link:hover {
   color: #011936;
 }
+
+/********** FIN ESTILOS CARD HEDAER **********/
