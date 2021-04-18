@@ -36,8 +36,22 @@ const CardHeader = () => {
               marginTop: "20px",
             }}
           >
-            <i class='social-media-link fab fa-linkedin'></i>
-            <i class='social-media-link fab fa-github-square'></i>
+            <a
+              title='Check my LinkedIn profile!'
+              href='https://www.linkedin.com/in/daniel-ramirez-salazar-800081145/'
+              target='_blank'
+              style={{ color: "inherit" }}
+            >
+              <i className='social-media-link fab fa-linkedin'></i>
+            </a>
+            <a
+              title='Check my Github account!'
+              href='https://github.com/danielrs95'
+              target='_blank'
+              style={{ color: "inherit" }}
+            >
+              <i class='social-media-link fab fa-github-square'></i>
+            </a>
           </div>
         </div>
       </div>

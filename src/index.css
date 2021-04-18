@@ -76,8 +76,9 @@ body::-webkit-scrollbar-thumb {
 .social-media-link {
   font-size: 3rem;
   width: fit-content;
+  transition: color 1s;
 }
 
 .social-media-link:hover {
-  color: red;
+  color: #011936;
 }
