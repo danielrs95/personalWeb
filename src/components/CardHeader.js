@@ -1,5 +1,6 @@
 import React from "react";
 import imageCV from "../img/CV.jpg";
+import "../styles/cardHeader.css";
 
 const CardHeader = () => {
   return (
