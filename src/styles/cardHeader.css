@@ -49,7 +49,7 @@
 /* Button for social media */
 .newTooltip:hover {
   /* color: #011936; */
-  font-size: 6rem;
+  /* font-size: 6rem; */
 }
 
 .newTooltip {
@@ -75,17 +75,20 @@
   opacity: 0;
   /* transition: visibility 0s linear 300ms, opacity 3s; */
 
-  transition: opacity 1s ease-in 0.3s;
+  transition: 0.5s ease-in-out, opacity 1s;
 
   /* Position the tooltip */
   position: absolute;
   z-index: 1;
+  top: 100%;
+  left: 100px;
 }
 
 .newTooltip:hover .tooltiptext {
   visibility: visible;
   /* color: white; */
   opacity: 1;
+  transform: translate(-100px, 0px);
 }
 
 /********** FIN ESTILOS CARD HEDAER **********/
