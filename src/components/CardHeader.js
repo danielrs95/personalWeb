@@ -10,9 +10,9 @@ const CardHeader = () => {
           <img src={imageCV} className='header-img'></img>
         </div>
         <div className='header-tittle col-6'>
-          <h1 style={{ fontWeight: "bold" }}>Daniel Ramirez</h1>
-          <h2>Mechanical Engineer</h2>
-          <h2>Fullstack Web Developer</h2>
+          <h1 style={{ fontWeight: "bold" }}>Daniel Ramirez Salazar</h1>
+          {/* <h2>Mechanical Engineer</h2>
+          <h2>Fullstack Web Developer</h2> */}
           <div className='social-media-container'>
             <a
               title='Check my LinkedIn profile!'
