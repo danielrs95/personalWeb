@@ -63,13 +63,14 @@
 
 .newTooltip .tooltiptext {
   visibility: hidden;
-  width: 120px;
-  background-color: black;
+  width: 200px;
+  background-color: var(--text-primary);
   font-size: 1rem;
-  color: #fff;
+  color: var(--blue);
   text-align: center;
   border-radius: 6px;
   padding: 5px 0;
+  font-family: "Montserrat", sans-serif !important;
 
   visibility: hidden;
   opacity: 0;
