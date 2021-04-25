@@ -7,7 +7,7 @@ const CardComponent = () => {
   return (
     <div className='container card-container'>
       <div className='row justify-content-center'>
-        <div className='col-10'>
+        <div className='col-12'>
           <div className='card card-box'>
             <CardHeader />
             <CardBody />
