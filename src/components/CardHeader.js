@@ -1,8 +1,13 @@
 import React from "react";
 import imageCV from "../img/CV.jpg";
+import Link from "react-router-dom";
 import "../styles/cardHeader.css";
 
 const CardHeader = () => {
+  const openLink = (url) => {
+    window.open(`${url}`);
+  };
+
   return (
     <div className='card-body background-card-header'>
       <div className='row'>
@@ -17,17 +22,23 @@ const CardHeader = () => {
             Daniel Ramirez Salazar
           </h1>
 
-          <div className='newTooltip fab fa-linkedin'>
+          <div
+            className='newTooltip fab fa-linkedin'
+            style={{ marginRight: "100px" }}
+            // onClick={openLink(
+            //   "https://www.linkedin.com/in/daniel-ramirez-salazar-800081145/"
+            // )}
+          >
             <span className='tooltiptext'>Check my linkedIn account!</span>
           </div>
 
-          {/* <a
-              // title='Check my Github account!'
-              href='https://github.com/danielrs95'
-              target='_blank'
-            >
-              <i class='social-media-link fab fa-github-square'></i>
-            </a> */}
+          <a
+            className='newTooltip fab fa-github-square'
+            href='https://github.com/danielrs95'
+            target='_blank'
+          >
+            <span className='tooltiptext'>Check my Github account!</span>
+          </a>
         </div>
       </div>
     </div>
