@@ -44,14 +44,6 @@
   text-align: center;
 }
 
-/* Container para los links */
-
-/* Button for social media */
-.newTooltip:hover {
-  /* color: #011936; */
-  /* font-size: 6rem; */
-}
-
 .newTooltip {
   color: var(--text-primary);
   position: relative;
@@ -93,9 +85,12 @@
   transform: translate(-100px, 0px);
 }
 
+/*
+1. Elimina el color por defecto que le pone al hacer hoover (azul)
+*/
 a.newTooltip:hover {
   color: inherit;
-  text-decoration: none;
+  /* text-decoration: none; */
 }
 
 /********** FIN ESTILOS CARD HEDAER **********/
