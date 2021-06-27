@@ -10,25 +10,16 @@ const CardHeader = () => {
 
   return (
     <div className='card-body background-card-header'>
-      <div className='row'>
+      <div className='row justify-content-center'>
         <div className='container-img'>
           <img src={imageCV} className='header-img'></img>
         </div>
-        <div className='header-tittle' style={{ position: "relative" }}>
+        <div className='header-tittle'>
           <h1 style={{ fontWeight: "bold", fontSize: "2.5rem" }}>
             Daniel Ramirez Salazar
           </h1>
 
-          {/* <div
-            className='newTooltip fab fa-linkedin'
-            style={{ marginRight: "100px" }}
-            // onClick={openLink(
-            //   "https://www.linkedin.com/in/daniel-ramirez-salazar-800081145/"
-            // )}
-          >
-            <span className='tooltiptext'>Check my linkedIn account!</span>
-          </div> */}
-          <div style={{ display: "flex", justifyContent: "space-evenly" }}>
+          <div className='d-flex' style={{ justifyContent: "space-evenly" }}>
             <a
               className='newTooltip fab fa-linkedin'
               href='https://www.linkedin.com/in/daniel-ramirez-salazar-800081145'
