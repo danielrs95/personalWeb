@@ -11,12 +11,12 @@ const CardHeader = () => {
   return (
     <div className='card-body background-card-header'>
       <div className='row'>
-        <div className='container-img col-6'>
+        <div className='container-img'>
           <img src={imageCV} className='header-img'></img>
         </div>
         <div
-          className='header-tittle col-6'
-          style={{ position: "relative", top: "100px" }}
+          className='header-tittle'
+          style={{ position: "relative", top: "20px" }}
         >
           <h1 style={{ fontWeight: "bold", fontSize: "2.5rem" }}>
             Daniel Ramirez Salazar
