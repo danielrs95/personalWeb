@@ -19,7 +19,7 @@ const CardHeader = () => {
             style={{
               textAlign: "center",
               fontWeight: "bold",
-              fontSize: "2.5rem",
+              fontSize: "2.2rem",
             }}
           >
             Daniel Ramirez Salazar
