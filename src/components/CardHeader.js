@@ -10,7 +10,7 @@ const CardHeader = () => {
 
   return (
     <div className='card-body background-card-header'>
-      <div className='row justify-content-center'>
+      <div className='row justify-content-center align-items-center'>
         <div className='col-sm-12 col-lg-6 d-flex justify-content-center '>
           <img src={imageCV} className='header-img'></img>
         </div>
