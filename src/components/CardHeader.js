@@ -11,11 +11,17 @@ const CardHeader = () => {
   return (
     <div className='card-body background-card-header'>
       <div className='row justify-content-center'>
-        <div className='col-sm-12 d-flex justify-content-center '>
+        <div className='col-sm-12 col-lg-6 d-flex justify-content-center '>
           <img src={imageCV} className='header-img'></img>
         </div>
-        <div className=''>
-          <h1 style={{ fontWeight: "bold", fontSize: "2.5rem" }}>
+        <div className='col-sm-12 col-lg-6'>
+          <h1
+            style={{
+              textAlign: "center",
+              fontWeight: "bold",
+              fontSize: "2.5rem",
+            }}
+          >
             Daniel Ramirez Salazar
           </h1>
 
