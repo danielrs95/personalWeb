@@ -28,22 +28,24 @@ const CardHeader = () => {
           >
             <span className='tooltiptext'>Check my linkedIn account!</span>
           </div> */}
-          <a
-            className='newTooltip fab fa-linkedin'
-            href='https://www.linkedin.com/in/daniel-ramirez-salazar-800081145'
-            target='_blank'
-            style={{ marginRight: "200px" }}
-          >
-            <span className='tooltiptext'>Check my linkedIn account!</span>
-          </a>
+          <div style={{ display: "flex", justifyContent: "space-evenly" }}>
+            <a
+              className='newTooltip fab fa-linkedin'
+              href='https://www.linkedin.com/in/daniel-ramirez-salazar-800081145'
+              target='_blank'
+              // style={{ marginRight: "200px" }}
+            >
+              <span className='tooltiptext'>Check my linkedIn account!</span>
+            </a>
 
-          <a
-            className='newTooltip fab fa-github-square'
-            href='https://github.com/danielrs95'
-            target='_blank'
-          >
-            <span className='tooltiptext'>Check my Github account!</span>
-          </a>
+            <a
+              className='newTooltip fab fa-github-square'
+              href='https://github.com/danielrs95'
+              target='_blank'
+            >
+              <span className='tooltiptext'>Check my Github account!</span>
+            </a>
+          </div>
         </div>
       </div>
     </div>
