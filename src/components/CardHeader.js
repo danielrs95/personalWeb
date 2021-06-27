@@ -14,10 +14,7 @@ const CardHeader = () => {
         <div className='container-img'>
           <img src={imageCV} className='header-img'></img>
         </div>
-        <div
-          className='header-tittle'
-          style={{ position: "relative", top: "20px" }}
-        >
+        <div className='header-tittle' style={{ position: "relative" }}>
           <h1 style={{ fontWeight: "bold", fontSize: "2.5rem" }}>
             Daniel Ramirez Salazar
           </h1>
