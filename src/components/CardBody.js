@@ -5,13 +5,13 @@ const CardBody = () => {
     <div className='card-body'>
       <div className='row' style={{ alignItems: "center" }}>
         <div
-          className='col-sm-12 text-justify'
+          className='col-12 text-justify'
           style={{ fontWeight: "normal", fontSize: "1rem" }}
         >
           I'm a Mechanical Engineer & Fullstack web developer passionate about
           crafting clean, minimalistic and user-friendly experiences
         </div>
-        <div className='col-sm-12 col-lg-6' style={{ paddingTop: "1.25rem" }}>
+        <div className='col-12 col-lg-6' style={{ paddingTop: "1.25rem" }}>
           <button
             type='button'
             className='btn btn-outline-primary'
@@ -20,7 +20,7 @@ const CardBody = () => {
             Check my Resume
           </button>
         </div>
-        <div className='col-sm-12 col-lg-6' style={{ paddingTop: "1.25rem" }}>
+        <div className='col-12 col-lg-6' style={{ paddingTop: "1.25rem" }}>
           <button
             type='button'
             className='btn btn-outline-primary'
