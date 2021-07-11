@@ -1,16 +1,16 @@
 import React from "react";
-import EducationListItemComponent from "./EducationListItemComponent";
+import ListItemComponent from "./ListItemComponent";
 
 const ExperienceComponent = () => {
   return (
     <div className='col-12'>
       <h1>Education</h1>
-      <EducationListItemComponent
+      <ListItemComponent
         year='2012-2017'
         title='University of Antioquia'
         subtitle='Mechanical Engineer'
       />
-      <EducationListItemComponent
+      <ListItemComponent
         year='2019-2020'
         title='Make It Real Camp'
         subtitle='Fullstack Web Developer'
