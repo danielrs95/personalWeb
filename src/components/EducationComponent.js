@@ -4,7 +4,7 @@ import ListItemComponent from "./ListItemComponent";
 const EducationComponent = () => {
   return (
     <div className='col-12'>
-      <h1>Education</h1>
+      <h2>Education</h2>
       <ListItemComponent
         year='2012-2017'
         title='University of Antioquia'
