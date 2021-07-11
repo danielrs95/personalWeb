@@ -5,9 +5,16 @@ const EducationComponent = () => {
   return (
     <div className='col-12'>
       <h1>Education</h1>
-      <EducationListItemComponent />
-      <EducationListItemComponent />
-
+      <EducationListItemComponent
+        year='2012-2017'
+        title='University of Antioquia'
+        subtitle='Mechanical Engineer'
+      />
+      <EducationListItemComponent
+        year='2019-2020'
+        title='Make It Real Camp'
+        subtitle='Fullstack Web Developer'
+      />
       {/* <div className='progress'>
         <div
           className='progress-bar bg-info'
