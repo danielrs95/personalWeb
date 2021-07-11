@@ -1,5 +1,6 @@
 import React from "react";
 import EducationComponent from "../components/EducationComponent";
+import ExperienceComponent from "../components/ExperienceComponent";
 
 const ResumeScreen = () => {
   return (
@@ -7,7 +8,7 @@ const ResumeScreen = () => {
       <div className='row justify-content-center'>
         <div className='col-12'>RESUME</div>
         <EducationComponent />
-        <div className='col-12'>Experience</div>
+        <ExperienceComponent />
         <div className='col-12'>Software Skills</div>
         <div className='col-12'>Coding Skills</div>
       </div>
