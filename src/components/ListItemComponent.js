@@ -1,8 +1,9 @@
 import React from "react";
+import "../styles/ListItem.css";
 
 const EducationListItemComponent = ({ year, title, subtitle, description }) => {
   return (
-    <div className='mt-2 border-bottom'>
+    <div className=' list-item-container'>
       <h6
         className='d-inline rounded px-2 text-muted'
         style={{ border: "1px solid #4caf50 " }}
