@@ -2,6 +2,7 @@ import React from "react";
 import EducationComponent from "../components/EducationComponent";
 import ExperienceComponent from "../components/ExperienceComponent";
 import LanguageSkillComponent from "../components/LanguageSkillComponent";
+import ProgrammingSkillComponent from "../components/ProgrammingSkillComponent";
 
 const ResumeScreen = () => {
   return (
@@ -12,16 +13,15 @@ const ResumeScreen = () => {
           style={{
             fontSize: "2.5rem",
             fontWeight: "550",
-            color: "#2196f3",
+            color: "#6610f2",
           }}
         >
-          RESUME
+          Resume
         </div>
         <EducationComponent />
         <ExperienceComponent />
         <LanguageSkillComponent />
-        {/* <div className='col-12'>Software Skills</div>
-        <div className='col-12'>Coding Skills</div> */}
+        <ProgrammingSkillComponent />
       </div>
     </div>
   );
