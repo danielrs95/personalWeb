@@ -3,7 +3,9 @@ import React from "react";
 const SkillItemComponent = ({ skill, percentage }) => {
   return (
     <>
-      <h6 className='d-inline  text-muted text-uppercase'>{skill}</h6>
+      <h6 className='d-inline  text-muted text-uppercase'>
+        {skill} - {percentage}%
+      </h6>
       <div className='progress'>
         <div
           className='progress-bar  progress-bar-striped progress-bar-animated'
