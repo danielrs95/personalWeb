@@ -1,7 +1,7 @@
 import React from "react";
 import EducationComponent from "../components/EducationComponent";
 import ExperienceComponent from "../components/ExperienceComponent";
-import SoftwareSkillsComponent from "../components/SoftwareSkillsComponent";
+import LanguageSkillComponent from "../components/LanguageSkillComponent";
 
 const ResumeScreen = () => {
   return (
@@ -19,7 +19,7 @@ const ResumeScreen = () => {
         </div>
         <EducationComponent />
         <ExperienceComponent />
-        <SoftwareSkillsComponent />
+        <LanguageSkillComponent />
         {/* <div className='col-12'>Software Skills</div>
         <div className='col-12'>Coding Skills</div> */}
       </div>
