@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/ListItem.css";
+import "../styles/listItem.css";
 
 const EducationListItemComponent = ({ year, title, subtitle, description }) => {
   return (
