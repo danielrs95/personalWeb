@@ -7,13 +7,13 @@ const EducationComponent = () => {
       <h2>Education</h2>
       <ListItemComponent
         year='2012 - 2017'
-        title='University of Antioquia'
-        subtitle='Mechanical Engineer'
+        company='University of Antioquia'
+        title='Mechanical Engineer'
       />
       <ListItemComponent
         year='2019 - 2020'
-        title='Make It Real Camp'
-        subtitle='Fullstack Web Developer'
+        company='Make It Real Camp'
+        title='Fullstack Web Developer'
       />
     </div>
   );

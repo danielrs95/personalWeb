@@ -7,13 +7,13 @@ const ExperienceComponent = () => {
       <h2 className='mt-3'>Experience</h2>
       <ListItemComponent
         year='2019/10 - Current'
-        title='OI - Owens Illinois'
-        subtitle='Mould Design Engineer'
+        company='OI - Owens Illinois'
+        title='Mould Design Engineer'
       />
       <ListItemComponent
         year='2018/04 - 2019/10'
-        title='SIMEX SAS'
-        subtitle='Mould Design Engineer'
+        company='SIMEX SAS'
+        title='Mould Design Engineer'
       />
     </div>
   );
