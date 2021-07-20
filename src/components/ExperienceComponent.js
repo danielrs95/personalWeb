@@ -3,7 +3,7 @@ import ListItemComponent from "./ListItemComponent";
 
 const ExperienceComponent = () => {
   return (
-    <div className='col-12'>
+    <div className='col-12 col-lg-6'>
       <h2 className='mt-3'>Experience</h2>
       <ListItemComponent
         year='2019/10 - Current'

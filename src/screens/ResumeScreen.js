@@ -13,7 +13,7 @@ const ResumeScreen = () => {
           style={{
             fontSize: "2.5rem",
             fontWeight: "550",
-            color: "#6610f2",
+            color: "#2196f3",
           }}
         >
           Resume

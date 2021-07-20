@@ -3,8 +3,8 @@ import SkillItemComponent from "./SkillItemComponent";
 
 const ProgrammingSkillComponent = () => {
   return (
-    <div className='col-12'>
-      <h2>PROGRAMMING SKILLS </h2>
+    <div className='col-12 col-lg-6'>
+      <h2 className='mt-3'>Programming Skills </h2>
 
       <SkillItemComponent skill='HTML' percentage='70' />
       <SkillItemComponent skill='CSS' percentage='70' />

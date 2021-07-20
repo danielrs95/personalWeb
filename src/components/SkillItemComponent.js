@@ -8,7 +8,7 @@ const SkillItemComponent = ({ skill, percentage }) => {
       </h6>
       <div className='progress'>
         <div
-          className='progress-bar  progress-bar-striped progress-bar-animated'
+          className='progress-bar bg-primary progress-bar-striped progress-bar-animated'
           role='progressbar'
           style={{ width: `${percentage}%`, backgroundColor: "#4caf50" }}
           aria-valuenow='25'
