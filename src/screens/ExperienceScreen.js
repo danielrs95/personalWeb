@@ -8,16 +8,6 @@ const ExperienceScreen = () => {
   return (
     <div className='container'>
       <div className='row justify-content-center'>
-        <div
-          className='col-12'
-          style={{
-            fontSize: '2.5rem',
-            fontWeight: '550',
-            color: '#2196f3',
-          }}
-        >
-          Experience
-        </div>
         <EducationComponent />
         <ExperienceComponent />
         <ProgrammingSkillComponent />
