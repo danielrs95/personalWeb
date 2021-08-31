@@ -4,7 +4,7 @@ import ExperienceComponent from '../components/ExperienceComponent';
 import LanguageSkillComponent from '../components/LanguageSkillComponent';
 import ProgrammingSkillComponent from '../components/ProgrammingSkillComponent';
 
-const ResumeScreen = () => {
+const ExperienceScreen = () => {
   return (
     <div className='container'>
       <div className='row justify-content-center'>
@@ -27,4 +27,4 @@ const ResumeScreen = () => {
   );
 };
 
-export default ResumeScreen;
+export default ExperienceScreen;
