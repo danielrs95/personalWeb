@@ -20,8 +20,8 @@ const ResumeScreen = () => {
         </div>
         <EducationComponent />
         <ExperienceComponent />
-        <LanguageSkillComponent />
         <ProgrammingSkillComponent />
+        <LanguageSkillComponent />
       </div>
     </div>
   );
