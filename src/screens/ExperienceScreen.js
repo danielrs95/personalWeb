@@ -9,9 +9,9 @@ const ExperienceScreen = () => {
     <div className='container'>
       <div className='row justify-content-center'>
         <EducationComponent />
-        <ExperienceComponent />
+        {/* <ExperienceComponent />
         <ProgrammingSkillComponent />
-        <LanguageSkillComponent />
+        <LanguageSkillComponent /> */}
       </div>
     </div>
   );
