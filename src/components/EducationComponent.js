@@ -4,6 +4,7 @@ import ListItemComponent from './ListItemComponent';
 const EducationComponent = () => {
   return (
     <div className='col-12 col-lg-8 pt-5'>
+      <h1 className='mb-3'>Education </h1>
       <ListItemComponent
         bottomLine
         dotFill
@@ -12,6 +13,7 @@ const EducationComponent = () => {
         year='2019 - 2020'
         city='Medellin, Antioquia'
         description=''
+        courses
       />
       <ListItemComponent
         topLine
