@@ -6,14 +6,15 @@ const EducationComponent = () => {
     <div className='col-12 col-lg-8 pt-5'>
       <h1 className='mb-3'>Education </h1>
       <ListItemComponent
+        topLine
         bottomLine
         dotFill
         title='Full-Stack Web Developer'
         university='Make It Real Camp'
         year='2019 - 2020'
         city='Medellin, Antioquia'
-        description=''
-        courses
+        developerDescription
+        developerCourses
       />
       <ListItemComponent
         topLine
@@ -21,7 +22,7 @@ const EducationComponent = () => {
         university='University of Antioquia'
         year='2012 - 2017'
         city='Medellin, Antioquia'
-        description=''
+        mechanicalDescription
       />
     </div>
   );
