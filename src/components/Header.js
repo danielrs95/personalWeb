@@ -7,13 +7,13 @@ const Header = () => {
   return (
     <Navbar expand='md' variant='light' style={{ backgroundColor: '#f5f5f5' }}>
       <LinkContainer to='/'>
-        <Navbar.Brand>
+        <Navbar.Brand style={{fontSize:"1.1rem"}}>
           <span style={{ fontWeight: 'bold' }}>Daniel </span>
           <span style={{ fontWeight: 'bold', color: '#2196f3' }}>Ramirez</span>
         </Navbar.Brand>
       </LinkContainer>
       <Navbar.Toggle aria-controls='basic-navbar-nav' />
-      <Navbar.Collapse id='basic-navbar-nav'>
+      <Navbar.Collapse id='basic-navbar-nav' style={{ fontSize: '1rem' }}>
         <Nav className='ml-auto'>
           <LinkContainer to='/'>
             <Nav.Link>Home</Nav.Link>
