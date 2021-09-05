@@ -284,7 +284,9 @@ const ListItemComponent = ({
                 </p>
 
                 <div className='list-group'>
-                  <h4 style={{ fontWeight: '600' }}>Achievements</h4>
+                  <h4 style={{ fontWeight: '600', color: '#444' }}>
+                    Achievements
+                  </h4>
                   {achievementsList.map((achievement) => (
                     <a
                       href={achievement.link}
@@ -320,7 +322,9 @@ const ListItemComponent = ({
                 </p>
 
                 <div className='list-group'>
-                  <h4 style={{ fontWeight: '600' }}>Achievements</h4>
+                  <h4 style={{ fontWeight: '600', color: '#444' }}>
+                    Achievements
+                  </h4>
                   <a
                     href='#'
                     className='list-group-item list-group-item-action'

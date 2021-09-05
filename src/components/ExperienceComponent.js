@@ -4,7 +4,7 @@ import ListItemComponent from './ListItemComponent';
 const ExperienceComponent = () => {
   return (
     <div className='col-12 col-lg-8 pt-5'>
-      <h1 className='mb-3'>Experience </h1>
+      <h1 className='mb-3 font-weight-bold'>Experience </h1>
       <ListItemComponent
         topLine
         bottomLine
