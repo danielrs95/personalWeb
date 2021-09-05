@@ -3,7 +3,7 @@ import ListItemComponent from './ListItemComponent';
 
 const ExperienceComponent = () => {
   return (
-    <div className='col-12 col-lg-8 pt-5'>
+    <div className='col-12 col-lg-10 pt-5'>
       <h1 className='mb-3 font-weight-bold' style={{ color: '#2196f3' }}>
         Experience{' '}
       </h1>
