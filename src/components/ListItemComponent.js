@@ -119,6 +119,7 @@ const achievementsList = [
       'Design and numerical analysis of an efficient H-Darrieus vertical-axis hydrokinetic turbine',
     autor: 'Ramírez D, Rubio-Clemente A, Chica E',
     link: 'https://journal.ump.edu.my/jmes/article/view/870',
+    magazine: 'Journal of Mechanical Engineering and Sciences',
   },
 ];
 
@@ -133,6 +134,8 @@ const ListItemComponent = ({
   developerDescription,
   developerCourses,
   mechanicalDescription,
+  oiDescription,
+  simexDescription,
 }) => {
   return (
     <div className='row'>
@@ -210,7 +213,7 @@ const ListItemComponent = ({
               <span>{city ? city : <>Ingresar Ciudad</>}</span>
             </div>
 
-            {/* Developer section */}
+            {/* Experience Developer section */}
 
             {developerDescription ? (
               <div
@@ -265,7 +268,7 @@ const ListItemComponent = ({
               <></>
             )}
 
-            {/* Mechanical section */}
+            {/* Experience Mechanical section */}
 
             {mechanicalDescription ? (
               <div
@@ -289,12 +292,73 @@ const ListItemComponent = ({
                       target='_blank'
                     >
                       <div class=''>
-                        <h5>{achievement.title}</h5>
-                        <span>{achievement.autor}</span>
+                        <span className='d-block'>{achievement.title}</span>
+                        <span className='ml-3'>{achievement.autor}</span>
+                        <span className='ml-3 d-block'>
+                          {achievement.magazine}
+                        </span>
                       </div>
                     </a>
                   ))}
                 </div>
+              </div>
+            ) : (
+              <></>
+            )}
+
+            {simexDescription ? (
+              <div
+                style={{
+                  padding: '0.75rem 1rem 0rem',
+                  color: '#000',
+                }}
+              >
+                <p>
+                  Mould design engineer for the cosmetic industry focusing on
+                  quality products, fulfilling client, industry and company
+                  standards
+                </p>
+
+                <div className='list-group'>
+                  <h4 style={{ fontWeight: '600' }}>Achievements</h4>
+                  <a
+                    href='#'
+                    className='list-group-item list-group-item-action'
+                    target='_blank'
+                  >
+                    Estadística para el modelo de tolerancias de partes
+                    plásticas y fundamentos en la norma DIN 16742
+                  </a>
+                </div>
+              </div>
+            ) : (
+              <></>
+            )}
+
+            {oiDescription ? (
+              <div
+                style={{
+                  padding: '0.75rem 1rem 0rem',
+                  color: '#000',
+                }}
+              >
+                <p>
+                  Mould design for one of the leading glass company on the
+                  industry, focusing on premium bottle market for high quality
+                  and high difficulty shaped bottles
+                </p>
+
+                {/* <div className='list-group'>
+                  <h4 style={{ fontWeight: '600' }}>Achievements</h4>
+                  <a
+                    href='#'
+                    className='list-group-item list-group-item-action'
+                    target='_blank'
+                  >
+                    Estadística para el modelo de tolerancias de partes
+                    plásticas y fundamentos en la norma DIN 16742
+                  </a>
+                </div> */}
               </div>
             ) : (
               <></>

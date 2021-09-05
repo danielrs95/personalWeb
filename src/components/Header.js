@@ -5,7 +5,7 @@ import '../styles/Header.css';
 
 const Header = () => {
   return (
-    <Navbar bg='light' expand='md' variant='light'>
+    <Navbar expand='md' variant='light' style={{ backgroundColor: '#f5f5f5' }}>
       <LinkContainer to='/'>
         <Navbar.Brand>
           <span style={{ fontWeight: 'bold' }}>Daniel </span>
