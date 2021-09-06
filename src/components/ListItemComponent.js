@@ -193,7 +193,7 @@ const ListItemComponent = ({
       </div>
 
       <div className='col mb-4'>
-        <div className='card'>
+        <div className='card border-primary'>
           <div className='card-body'>
             <h4 className='card-title mt-0 mb-1 font-weight-bold'>
               {title ? title : <> Title prop</>}
@@ -255,6 +255,7 @@ const ListItemComponent = ({
                     href={course.link}
                     class='list-group-item list-group-item-action'
                     target='_blank'
+                    rel='noreferrer'
                   >
                     <div class=''>
                       <span>
@@ -292,6 +293,7 @@ const ListItemComponent = ({
                       href={achievement.link}
                       className='list-group-item list-group-item-action'
                       target='_blank'
+                      rel='noreferrer'
                     >
                       <div class=''>
                         <span className='d-block'>{achievement.title}</span>
@@ -326,9 +328,10 @@ const ListItemComponent = ({
                     Achievements
                   </h4>
                   <a
-                    href='#'
+                    href='https://www.linkedin.com/in/daniel-ramirez-salazar-800081145/'
                     className='list-group-item list-group-item-action'
                     target='_blank'
+                    rel='noreferrer'
                   >
                     Estadística para el modelo de tolerancias de partes
                     plásticas y fundamentos en la norma DIN 16742
