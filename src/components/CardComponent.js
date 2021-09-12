@@ -52,35 +52,21 @@ const CardComponent = () => {
               </div>
             </div>
             <div className='card-body'>
-              <p>
+              <span>
                 I'm a Mechanical Engineer & Fullstack web developer passionate
                 about crafting clean, minimalistic and user-friendly websites
-              </p>
-              <div>
-                <div
-                  className='col-12 col-lg-6'
-                  style={{ paddingTop: '1.25rem' }}
-                >
-                  <button
-                    type='button'
-                    className='btn btn-outline-primary'
-                    style={{ width: '100%' }}
-                  >
-                    Check my Resume
-                  </button>
-                </div>
-                <div
-                  className='col-12 col-lg-6'
-                  style={{ paddingTop: '1.25rem' }}
-                >
-                  <button
-                    type='button'
-                    className='btn btn-outline-primary'
-                    style={{ width: '100%' }}
-                  >
-                    Check my Portfolio
-                  </button>
-                </div>
+              </span>
+              <div className='d-flex justify-content-evenly mt-2'>
+                {/* <div className=''> */}
+                <button type='button' className='w-25 btn btn-outline-primary'>
+                  Check my Resume
+                </button>
+                {/* </div> */}
+                {/* <div className=''> */}
+                <button type='button' className='w-25 btn btn-outline-primary'>
+                  Check my Portfolio
+                </button>
+                {/* </div> */}
               </div>
             </div>
           </div>
