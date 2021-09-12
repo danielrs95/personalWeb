@@ -1,7 +1,5 @@
 import React from 'react';
-import CardHeader from '../components/CardHeader';
 import '../styles/cardComponent.css';
-import CardBody from './CardBody';
 import imageCV from '../img/CV.jpg';
 
 const CardComponent = () => {
