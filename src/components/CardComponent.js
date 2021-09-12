@@ -10,13 +10,19 @@ const CardComponent = () => {
           <div class='card'>
             <div class='card-header bg-primary bg-gradient d-flex justify-content-evenly align-items-center'>
               <div className='col-12 col-lg-6 d-flex justify-content-center'>
-                <img src={imageCV} class='img-fluid w-75' alt='...' />
+                <img src={imageCV} class='img-fluid w-50' alt='...' />
               </div>
               <div className='d-flex flex-column col-12 col-lg-6 text-center text-light fs-1'>
-                <p class='card-text  fw-bold '>Daniel Ramirez</p>
-                <div className=''>
-                  <i class='fab fa-linkedin'></i>
-                  <i class='fab fa-github-square'></i>
+                <p class='card-text fw-bold '>Daniel Ramirez</p>
+                <div className='' style={{ fontSize: '4.5rem' }}>
+                  <a
+                    class='fab fa-linkedin link-light text-decoration-none mx-2'
+                    href=''
+                  ></a>
+                  <a
+                    class='fab fa-github-square link-light text-decoration-none mx-2'
+                    href=''
+                  ></a>
                 </div>
               </div>
             </div>
