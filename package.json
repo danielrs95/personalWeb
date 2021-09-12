@@ -6,7 +6,7 @@
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.6",
     "@testing-library/user-event": "^12.8.3",
-    "bootstrap": "^4.6.0",
+    "bootstrap": "^5.0.0-beta3",
     "node-sass": "^5.0.0",
     "react": "^17.0.2",
     "react-bootstrap": "^1.5.2",
@@ -14,6 +14,7 @@
     "react-router-bootstrap": "^0.25.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
+    "sass": "^1.39.2",
     "web-vitals": "^1.1.1"
   },
   "scripts": {

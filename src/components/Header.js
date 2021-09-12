@@ -39,23 +39,19 @@ const Header = () => {
         <div class='container-fluid'>
           <a href='/' class='navbar-brand fs-3 fw-bold'>
             <span>Daniel</span>
-            <span className='' style={{ color: '#2196f3' }}>
-              Ramirez
-            </span>
+            <span className='text-primary'>Ramirez</span>
           </a>
           <div class='d-flex'>
             <a
               className='btn btn-outline-primary mx-1 border-0'
               role='button'
               href='/'
-              style={{ color: '#2196f3' }}
             >
               Home
             </a>
             <a
               className='btn btn-outline-primary mx-1 border-0'
               role='button'
-              style={{ color: '#2196f3' }}
               href='/experience'
             >
               Experience
@@ -63,7 +59,6 @@ const Header = () => {
             <a
               className='btn btn-outline-primary mx-1 border-0'
               role='button'
-              style={{ color: '#2196f3' }}
               href='/portfolio'
             >
               Portfolio
@@ -71,7 +66,6 @@ const Header = () => {
             <a
               className='btn btn-outline-primary mx-1 border-0'
               role='button'
-              style={{ color: '#2196f3' }}
               href='/contact'
             >
               Contact
