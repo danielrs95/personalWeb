@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import '../styles/cardComponent.css';
 import imageCV from '../img/CV.jpg';
 import { Tooltip } from 'bootstrap';
 

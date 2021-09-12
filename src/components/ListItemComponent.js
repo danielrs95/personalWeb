@@ -1,5 +1,4 @@
 import React from 'react';
-import '../styles/listItem.css';
 
 const courseList = [
   {
