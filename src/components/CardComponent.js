@@ -8,7 +8,12 @@ const CardComponent = () => {
       <div className='row justify-content-center'>
         <div className='col-10'>
           <div class='card'>
-            <div class='card-header bg-primary bg-gradient d-flex justify-content-evenly align-items-center'>
+            <div
+              class='card-header d-flex bg-gradient justify-content-evenly align-items-center'
+              style={{
+                backgroundColor: '#2196f3',
+              }}
+            >
               <div className='col-12 col-lg-6 d-flex justify-content-center'>
                 <img src={imageCV} class='img-fluid w-50' alt='...' />
               </div>

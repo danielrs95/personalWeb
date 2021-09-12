@@ -35,36 +35,38 @@ const Header = () => {
           </Nav>
         </Navbar.Collapse>
       </Navbar> */}
-      <nav class='navbar navbar-light ' style={{ backgroundColor: '#f5f5f5' }}>
+      <nav class='navbar navbar-light' style={{ backgroundColor: '#f5f5f5' }}>
         <div class='container-fluid'>
           <a href='/' class='navbar-brand fs-3 fw-bold'>
             <span>Daniel</span>
-            <span className='text-primary'>Ramirez</span>
+            <span className='' style={{ color: '#2196f3' }}>
+              Ramirez
+            </span>
           </a>
           <div class='d-flex'>
             <a
-              className='btn btn-outline-primary mx-1 border-0'
+              className='btn btn-outline-dark mx-1 border-0'
               role='button'
               href='/'
             >
               Home
             </a>
             <a
-              className='btn btn-outline-primary mx-1 border-0'
+              className='btn btn-outline-dark mx-1 border-0'
               role='button'
               href='/experience'
             >
               Experience
             </a>
             <a
-              className='btn btn-outline-primary mx-1 border-0'
+              className='btn btn-outline-dark mx-1 border-0'
               role='button'
               href='/portfolio'
             >
               Portfolio
             </a>
             <a
-              className='btn btn-outline-primary mx-1 border-0'
+              className='btn btn-outline-dark mx-1 border-0'
               role='button'
               href='/contact'
             >
