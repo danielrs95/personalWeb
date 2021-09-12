@@ -16,37 +16,44 @@ const CardComponent = () => {
         <div className='col-10'>
           <div class='card'>
             <div
-              class='card-header d-flex bg-gradient justify-content-evenly align-items-center'
+              class='card-header container d-flex bg-gradient justify-content-evenly align-items-center'
               style={{
                 backgroundColor: '#2196f3',
               }}
             >
-              <div className='col-12 col-lg-6 d-flex justify-content-center'>
-                <img src={imageCV} class='img-fluid w-50' alt='...' />
-              </div>
-              <div className='d-flex flex-column col-12 col-lg-6 text-center text-light fs-1'>
-                <p class='card-text fw-bold fs-1'>Daniel Ramirez</p>
-                <div className='' style={{ fontSize: '4.5rem' }}>
-                  <a
-                    role='button'
-                    class='fab fa-linkedin link-light text-decoration-none mx-2'
-                    href='https://www.linkedin.com/in/daniel-ramirez-salazar-800081145'
-                    target='_blank'
-                    rel='noreferrer'
-                    data-bs-toggle='tooltip'
-                    data-bs-placement='Bottom'
-                    title='Check my linkedIn account!'
-                  ></a>
-                  <a
-                    role='button'
-                    class='fab fa-github-square link-light text-decoration-none mx-2'
-                    href='https://github.com/danielrs95'
-                    target='_blank'
-                    rel='noreferrer'
-                    data-bs-toggle='tooltip'
-                    data-bs-placement='bottom'
-                    title='Check my GitHub account!'
-                  ></a>
+              <div class='row'>
+                <div className='col-12 col-lg-6 d-flex justify-content-center'>
+                  <img src={imageCV} class='img-fluid w-50' alt='...' />
+                </div>
+
+                <div className='d-flex flex-column col-12 col-lg-6 text-center text-light justify-content-center'>
+                  <h1 class='card-text fw-bold '>Daniel Ramirez</h1>
+                  <div className='' style={{ fontSize: '4rem' }}>
+                    <a
+                      role='button'
+                      class='mx-2'
+                      href='https://www.linkedin.com/in/daniel-ramirez-salazar-800081145'
+                      target='_blank'
+                      rel='noreferrer'
+                      data-bs-toggle='tooltip'
+                      data-bs-placement='Bottom'
+                      title='Check my linkedIn account!'
+                    >
+                      <i className='fab fa-linkedin link-light text-decoration-none ' />
+                    </a>
+                    <a
+                      role='button'
+                      class='mx-2'
+                      href='https://github.com/danielrs95'
+                      target='_blank'
+                      rel='noreferrer'
+                      data-bs-toggle='tooltip'
+                      data-bs-placement='bottom'
+                      title='Check my GitHub account!'
+                    >
+                      <i className='fab fa-github-square link-light text-decoration-none ' />
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>

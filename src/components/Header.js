@@ -34,7 +34,10 @@ const Header = () => {
           </Nav>
         </Navbar.Collapse>
       </Navbar> */}
-      <nav class='navbar navbar-light' style={{ backgroundColor: '#f5f5f5' }}>
+      <nav
+        class='navbar navbar-light border-bottom border-2'
+        style={{ backgroundColor: '#f5f5f5' }}
+      >
         <div class='container-fluid'>
           <a href='/' class='navbar-brand fs-3 fw-bold'>
             <span>Daniel</span>
