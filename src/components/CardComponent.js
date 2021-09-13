@@ -80,16 +80,20 @@ const CardComponent = () => {
                 about crafting clean, minimalistic and user-friendly websites
               </span>
               <div className='d-flex justify-content-evenly mt-2'>
-                {/* <div className=''> */}
-                <button type='button' className='w-25 btn btn-outline-dark'>
-                  Check my Resume
-                </button>
-                {/* </div> */}
-                {/* <div className=''> */}
-                <button type='button' className='w-25 btn btn-outline-dark'>
+                <a
+                  role='button'
+                  href='/experience'
+                  className='w-25 btn btn-outline-dark'
+                >
+                  Check my Experience
+                </a>
+                <a
+                  role='button'
+                  href='/portfolio'
+                  className='w-25 btn btn-outline-dark'
+                >
                   Check my Portfolio
-                </button>
-                {/* </div> */}
+                </a>
               </div>
             </div>
           </div>
