@@ -79,18 +79,18 @@ const CardComponent = () => {
                 I'm a Mechanical Engineer & Fullstack web developer passionate
                 about crafting clean, minimalistic and user-friendly websites
               </span>
-              <div className='d-flex justify-content-evenly mt-2'>
+              <div className='d-grid gap-2 d-lg-flex justify-content-lg-evenly mt-2'>
                 <a
                   role='button'
                   href='/experience'
-                  className='w-25 btn btn-outline-dark'
+                  className='btn btn-outline-dark'
                 >
                   Check my Experience
                 </a>
                 <a
                   role='button'
                   href='/portfolio'
-                  className='w-25 btn btn-outline-dark'
+                  className='btn btn-outline-dark'
                 >
                   Check my Portfolio
                 </a>
