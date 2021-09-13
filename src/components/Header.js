@@ -67,13 +67,14 @@ const Header = () => {
             >
               Portfolio
             </a>
-            <a
-              className='btn btn-outline-dark mx-1 border-0'
-              role='button'
-              href='/contact'
+            <button
+              type='button'
+              class='btn btn-outline-dark mx-1 border-0'
+              data-bs-toggle='modal'
+              data-bs-target='#exampleModal'
             >
               Contact
-            </a>
+            </button>
           </div>
         </div>
       </nav>

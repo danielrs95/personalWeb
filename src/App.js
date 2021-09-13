@@ -4,11 +4,13 @@ import Header from './components/Header';
 import HomeScreen from './screens/HomeScreen';
 import ExperienceScreen from './screens/ExperienceScreen';
 import PortfolioScreen from './screens/PortfolioScreen';
+import OffCanvas from './components/OffCanvas';
 
 const App = () => {
   return (
     <Router>
       <Header />
+      <OffCanvas />
       <Route path='/' component={HomeScreen} exact />
       <Route path='/experience' component={ExperienceScreen} exact />
       <Route path='/portfolio' component={PortfolioScreen} exact />
