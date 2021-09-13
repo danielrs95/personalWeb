@@ -15,7 +15,7 @@ const CardComponent = () => {
       <div className='row justify-content-center'>
         <div className='col-11'>
           <div
-            class='card'
+            className='card'
             style={{
               border: '0.1px solid rgb(0 0 0 / 10%)',
               borderRadius: '1.2rem',
@@ -23,17 +23,17 @@ const CardComponent = () => {
             }}
           >
             <div
-              class='card-header container d-flex bg-gradient justify-content-evenly align-items-center'
+              className='card-header container d-flex bg-gradient justify-content-evenly align-items-center'
               style={{
                 backgroundColor: '#2196f3',
                 borderRadius: '1.2rem 1.2rem 0 0',
               }}
             >
-              <div class='row'>
+              <div className='row'>
                 <div className='col-12 col-lg-6 d-flex justify-content-center'>
                   <img
                     src={imageCV}
-                    class='img-fluid w-50'
+                    className='img-fluid w-50'
                     alt='...'
                     style={{
                       border: '0.1px solid rgb(0 0 0 / 10%)',
@@ -44,11 +44,11 @@ const CardComponent = () => {
                 </div>
 
                 <div className='d-flex flex-column col-12 col-lg-6 text-center text-light justify-content-center'>
-                  <h1 class='card-text fw-bold '>Daniel Ramirez</h1>
+                  <h1 className='card-text fw-bold '>Daniel Ramirez</h1>
                   <div className='' style={{ fontSize: '4rem' }}>
                     <a
                       role='button'
-                      class='mx-2'
+                      className='mx-2'
                       href='https://www.linkedin.com/in/daniel-ramirez-salazar-800081145'
                       target='_blank'
                       rel='noreferrer'
@@ -60,7 +60,7 @@ const CardComponent = () => {
                     </a>
                     <a
                       role='button'
-                      class='mx-2'
+                      className='mx-2'
                       href='https://github.com/danielrs95'
                       target='_blank'
                       rel='noreferrer'

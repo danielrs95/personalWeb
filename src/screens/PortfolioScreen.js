@@ -17,7 +17,7 @@ const PortfolioScreen = () => {
             <img
               src={mernImg}
               className='card-img-top '
-              alt='eCommerce image'
+              alt='eCommerce'
               style={{ padding: '1.25rem' }}
             />
             <div className='card-body'>
@@ -63,7 +63,7 @@ const PortfolioScreen = () => {
             <img
               src={moviesImg}
               className='card-img-top '
-              alt='movies app image'
+              alt='movies app'
               style={{ padding: '1.25rem' }}
             />
             <div className='card-body '>
@@ -100,7 +100,7 @@ const PortfolioScreen = () => {
             <img
               src={magicPollsImg}
               className='card-img-top '
-              alt='movies app image'
+              alt='movies app'
               style={{ padding: '1.25rem' }}
             />
             <div className='card-body '>

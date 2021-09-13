@@ -243,7 +243,7 @@ const ListItemComponent = ({
 
             {developerCourses ? (
               <div
-                class='list-group'
+                className='list-group'
                 style={{
                   padding: '0.75rem 1rem 0.75rem',
                 }}
@@ -252,11 +252,11 @@ const ListItemComponent = ({
                 {courseList.map((course) => (
                   <a
                     href={course.link}
-                    class='list-group-item list-group-item-action'
+                    className='list-group-item list-group-item-action'
                     target='_blank'
                     rel='noreferrer'
                   >
-                    <div class=''>
+                    <div className=''>
                       <span>
                         {course.title} - {course.autor}
                       </span>
@@ -294,7 +294,7 @@ const ListItemComponent = ({
                       target='_blank'
                       rel='noreferrer'
                     >
-                      <div class=''>
+                      <div className=''>
                         <span className='d-block'>{achievement.title}</span>
                         <span className='ml-3'>{achievement.autor}</span>
                         <span className='ml-3 d-block'>

@@ -35,17 +35,17 @@ const Header = () => {
         </Navbar.Collapse>
       </Navbar> */}
       <nav
-        class='navbar navbar-light border-bottom border-2'
+        className='navbar navbar-light border-bottom border-2'
         style={{ backgroundColor: '#f5f5f5' }}
       >
-        <div class='container-fluid mx-5'>
-          <a href='/' class='navbar-brand fs-3 fw-bold'>
+        <div className='container-fluid mx-5'>
+          <a href='/' className='navbar-brand fs-3 fw-bold'>
             <span>Daniel</span>
             <span className='' style={{ color: '#2196f3' }}>
               Ramirez
             </span>
           </a>
-          <div class='d-flex'>
+          <div className='d-flex'>
             <a
               className='btn btn-outline-dark mx-1 border-0'
               role='button'
@@ -69,7 +69,7 @@ const Header = () => {
             </a>
             <button
               type='button'
-              class='btn btn-outline-dark mx-1 border-0'
+              className='btn btn-outline-dark mx-1 border-0'
               data-bs-toggle='modal'
               data-bs-target='#exampleModal'
             >
