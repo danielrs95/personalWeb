@@ -2,6 +2,15 @@ import React from 'react';
 
 const courseList = [
   {
+    title: 'Building Modern Projects With React',
+    autor: 'Shaun Wassell',
+    university: 'LinkedIn Learning',
+    certificate: '',
+    link: 'https://www.linkedin.com/learning/building-modern-projects-with-react/react-going-from-good-to-great?autoAdvance=true&autoSkip=false&autoplay=true&resume=true&u=80825882',
+    description:
+      'Learn about some of the most important tools in the React ecosystem that help you simplify development and manage the complexities of state, side effects, structure, and styling. Instructor Shaun Wassell shows how to create a basic React project, and then explains how to add Redux, create thunks, use selectors, work with styled-components, perform testing, and more.',
+  },
+  {
     title: 'React Hooks',
     autor: 'Eve Porcello',
     university: 'LinkedIn Learning',

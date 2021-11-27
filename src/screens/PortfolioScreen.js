@@ -2,6 +2,7 @@ import React from 'react';
 import mernImg from '../img/mern_homeScreen.png';
 import moviesImg from '../img/togetheater.png';
 import magicPollsImg from '../img/magicPolls.png';
+import singlePageEcommerce from '../img/single_page_ecommerce.png';
 
 const PortfolioScreen = () => {
   return (
@@ -113,6 +114,37 @@ const PortfolioScreen = () => {
               <div className='d-flex justify-content-around'>
                 <a
                   href='https://magicpolls.herokuapp.com/'
+                  className='btn btn-outline-dark'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  Go to website
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Single page e-commerce */}
+        <div className='col'>
+          <div className='card h-100 border-primary '>
+            <img
+              src={singlePageEcommerce}
+              className='card-img-top '
+              alt='movies app'
+              style={{ padding: '1.25rem' }}
+            />
+            <div className='card-body '>
+              <h5 className='card-title'>Single Page eCommerce</h5>
+              <p className='card-text'>
+                Basic but powerful single page app made with React and Redux,
+                with shopping cart functionality and persistent memory meaning
+                no cart items are lost when reloading the page :{' '}
+              </p>
+
+              <div className='d-flex justify-content-around'>
+                <a
+                  href='https://single-page-ecommerce.herokuapp.com/'
                   className='btn btn-outline-dark'
                   target='_blank'
                   rel='noreferrer'
